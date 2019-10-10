@@ -1,0 +1,15 @@
+E:\Projects\DemoProjects\SEG\SEG\SEG.DAL\bin\Debug\SEG.DAL.dll.config
+E:\Projects\DemoProjects\SEG\SEG\SEG.DAL\bin\Debug\SEG.DAL.dll
+E:\Projects\DemoProjects\SEG\SEG\SEG.DAL\bin\Debug\SEG.DAL.pdb
+E:\Projects\DemoProjects\SEG\SEG\SEG.DAL\bin\Debug\EntityFramework.dll
+E:\Projects\DemoProjects\SEG\SEG\SEG.DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\DemoProjects\SEG\SEG\SEG.DAL\bin\Debug\SEG.BOL.dll
+E:\Projects\DemoProjects\SEG\SEG\SEG.DAL\bin\Debug\SEG.BOL.pdb
+E:\Projects\DemoProjects\SEG\SEG\SEG.DAL\bin\Debug\SEG.BOL.dll.config
+E:\Projects\DemoProjects\SEG\SEG\SEG.DAL\bin\Debug\EntityFramework.xml
+E:\Projects\DemoProjects\SEG\SEG\SEG.DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\DemoProjects\SEG\SEG\SEG.DAL\obj\Debug\SEG.DAL.csprojResolveAssemblyReference.cache
+E:\Projects\DemoProjects\SEG\SEG\SEG.DAL\obj\Debug\SEG.DAL.csproj.CoreCompileInputs.cache
+E:\Projects\DemoProjects\SEG\SEG\SEG.DAL\obj\Debug\SEG.DAL.csproj.CopyComplete
+E:\Projects\DemoProjects\SEG\SEG\SEG.DAL\obj\Debug\SEG.DAL.dll
+E:\Projects\DemoProjects\SEG\SEG\SEG.DAL\obj\Debug\SEG.DAL.pdb
