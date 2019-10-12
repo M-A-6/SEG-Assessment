@@ -11,19 +11,22 @@ using System.Web.Http.Description;
 
 namespace SEG.API.Controllers
 {
+    [Authorize]
     [EnableCors("*", "*", "*")]
     public class EmployeeController : ApiController
-    {
+    {    
         EmployeeBs employeeBsObj;
 
         public EmployeeController()
         {
             employeeBsObj = new EmployeeBs();
         }
+
+        
         [ResponseType(typeof(IEnumerable<Employee>))]
         public IHttpActionResult Get()
         {
-            return Ok(employeeBsObj.GetemployeesByDept());
+            return Ok(employeeBsObj.GetALL());
         }
         [ResponseType(typeof(Employee))]
         public IHttpActionResult Get(int Id)
@@ -80,4 +83,6 @@ namespace SEG.API.Controllers
         }
     }
 }
+
+
 

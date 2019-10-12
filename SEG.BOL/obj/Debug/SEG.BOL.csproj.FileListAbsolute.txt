@@ -9,4 +9,3 @@ E:\Projects\DemoProjects\SEG\SEG\SEG.BOL\obj\Debug\SEG.BOL.csproj.CoreCompileInp
 E:\Projects\DemoProjects\SEG\SEG\SEG.BOL\obj\Debug\SEG.BOL.csproj.CopyComplete
 E:\Projects\DemoProjects\SEG\SEG\SEG.BOL\obj\Debug\SEG.BOL.dll
 E:\Projects\DemoProjects\SEG\SEG\SEG.BOL\obj\Debug\SEG.BOL.pdb
-E:\Projects\DemoProjects\SEG\SEG\SEG.BOL\obj\Debug\SEG.BOL.csprojResolveAssemblyReference.cache

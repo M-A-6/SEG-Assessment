@@ -20,6 +20,7 @@ namespace SEG.BOL
         public SEGEntities()
             : base("name=SEGEntities")
         {
+             Configuration.ProxyCreationEnabled = false;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
