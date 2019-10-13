@@ -20,7 +20,7 @@ using SEG.API.Results;
 
 namespace SEG.API.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [RoutePrefix("api/Account")]
    // [EnableCors("*", "*", "*")]
     public class AccountController : ApiController
