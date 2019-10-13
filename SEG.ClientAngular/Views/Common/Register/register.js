@@ -4,7 +4,7 @@
     registerObj.createRegister = function (registration) {
         var Emp;
 
-        Emp = $http({ method: 'Post', url: 'http://localhost:4228/api/Employee', data: registration }).
+        Emp = $http({ method: 'Post', url: 'http://localhost:4228/api/account/register', data: registration }).
             then(function (response) {
                 return response.data;
             }, function (error) {
@@ -26,12 +26,13 @@ appSEG.controller('RegisterController', function ($scope, registerService, $loca
             registerService.createRegister(registration).then(function (result) {
                 console.log(result);
                 if (result.ModelState == null) {
-                    $scope.Msg = " You have successfully created " + result;
+                    $scope.Msg = " You have successfully Registerd ";
                     $scope.Flg = true;
                     $scope.Reg = {}; // clears input fields
                 }
                 else {
                     $scope.serverErrorMsgs = result.ModelState;
+                    $scope.Msg = result.ModelState;
                 }
             });
         };
