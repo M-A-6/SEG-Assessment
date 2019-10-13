@@ -1,5 +1,3 @@
-E:\Projects\DemoProjects\SEG\SEG\SEG.Client\obj\Debug\SEG.Client.csprojResolveAssemblyReference.cache
-E:\Projects\DemoProjects\SEG\SEG\SEG.Client\obj\Debug\SEG.Client.csproj.CoreCompileInputs.cache
 E:\Projects\DemoProjects\SEG\SEG\SEG.Client\bin\SEG.Client.dll.config
 E:\Projects\DemoProjects\SEG\SEG\SEG.Client\bin\SEG.Client.dll
 E:\Projects\DemoProjects\SEG\SEG\SEG.Client\bin\SEG.Client.pdb
@@ -71,6 +69,8 @@ E:\Projects\DemoProjects\SEG\SEG\SEG.Client\bin\System.Web.Webpages.Razor.xml
 E:\Projects\DemoProjects\SEG\SEG\SEG.Client\bin\System.Web.Helpers.xml
 E:\Projects\DemoProjects\SEG\SEG\SEG.Client\bin\System.Web.Mvc.xml
 E:\Projects\DemoProjects\SEG\SEG\SEG.Client\bin\EntityFramework.xml
+E:\Projects\DemoProjects\SEG\SEG\SEG.Client\obj\Debug\SEG.Client.csprojResolveAssemblyReference.cache
+E:\Projects\DemoProjects\SEG\SEG\SEG.Client\obj\Debug\SEG.Client.csproj.CoreCompileInputs.cache
 E:\Projects\DemoProjects\SEG\SEG\SEG.Client\obj\Debug\SEG.Client.csproj.CopyComplete
 E:\Projects\DemoProjects\SEG\SEG\SEG.Client\obj\Debug\SEG.Client.dll
 E:\Projects\DemoProjects\SEG\SEG\SEG.Client\obj\Debug\SEG.Client.pdb

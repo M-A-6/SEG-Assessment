@@ -244,6 +244,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\SHARJAHEGOVERNMENT - Web Deploy.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SEG.BLL\SEG.BLL.csproj">

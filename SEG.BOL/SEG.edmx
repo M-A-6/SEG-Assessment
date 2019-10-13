@@ -43,6 +43,13 @@
         <Function Name="spGetEmployees" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="departmentId" Type="int" Mode="In" />
         </Function>
+        <Function Name="spGetEmployeesPaging" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="DisplayLength" Type="int" Mode="In" />
+          <Parameter Name="DisplayStart" Type="int" Mode="In" />
+          <Parameter Name="SortCol" Type="int" Mode="In" />
+          <Parameter Name="SortDir" Type="nvarchar" Mode="In" />
+          <Parameter Name="Search" Type="nvarchar" Mode="In" />
+        </Function>
         <EntityContainer Name="SEGModelStoreContainer">
           <EntitySet Name="Departments" EntityType="Self.Departments" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Employees" EntityType="Self.Employees" Schema="dbo" store:Type="Tables" />
@@ -63,7 +70,14 @@
             <End Role="Employee" EntitySet="Employees" />
           </AssociationSet>
           <FunctionImport Name="spGetEmployees" ReturnType="Collection(SEGModel.spGetEmployees_Result)">
-            <Parameter Name="departmentId" Mode="In" Type="Int32" />
+          <Parameter Name="departmentId" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="spGetEmployeesPaging" ReturnType="Collection(SEGModel.spGetEmployeesPaging_Result)">
+            <Parameter Name="DisplayLength" Mode="In" Type="Int32" />
+            <Parameter Name="DisplayStart" Mode="In" Type="Int32" />
+            <Parameter Name="SortCol" Mode="In" Type="Int32" />
+            <Parameter Name="SortDir" Mode="In" Type="String" />
+            <Parameter Name="Search" Mode="In" Type="String" />
           </FunctionImport>
         </EntityContainer>
         <EntityType Name="Department">
@@ -117,6 +131,15 @@
           <Property Type="String" Name="DepartmentEn" Nullable="true" MaxLength="50" />
           <Property Type="String" Name="DepartmentAr" Nullable="true" MaxLength="50" />
         </ComplexType>
+        <ComplexType Name="spGetEmployeesPaging_Result">
+          <Property Type="Int64" Name="RowNum" Nullable="true" />
+          <Property Type="Int32" Name="TotalCount" Nullable="true" />
+          <Property Type="Int32" Name="EmployeeId" Nullable="false" />
+          <Property Type="String" Name="FirstName" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="LastName" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Gender" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Email" Nullable="true" MaxLength="50" />
+        </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -163,6 +186,19 @@
                 <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
                 <ScalarProperty Name="DepartmentEn" ColumnName="DepartmentEn" />
                 <ScalarProperty Name="DepartmentAr" ColumnName="DepartmentAr" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="spGetEmployeesPaging" FunctionName="SEGModel.Store.spGetEmployeesPaging">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SEGModel.spGetEmployeesPaging_Result">
+                <ScalarProperty Name="RowNum" ColumnName="RowNum" />
+                <ScalarProperty Name="TotalCount" ColumnName="TotalCount" />
+                <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>

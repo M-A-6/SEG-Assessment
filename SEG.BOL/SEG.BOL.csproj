@@ -72,6 +72,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SEG.edmx</DependentUpon>
     </Compile>
+    <Compile Include="spGetEmployeesPaging_Result.cs">
+      <DependentUpon>SEG.tt</DependentUpon>
+    </Compile>
     <Compile Include="spGetEmployees_Result.cs">
       <DependentUpon>SEG.tt</DependentUpon>
     </Compile>

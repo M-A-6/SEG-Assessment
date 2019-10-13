@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEG.API", "SEG.API\SEG.API.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEG.Client", "SEG.Client\SEG.Client.csproj", "{CFE3B8A4-E466-4CFA-A634-65B027C46B2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEG.ClientAngular", "SEG.ClientAngular\SEG.ClientAngular.csproj", "{57038BAA-D11D-458B-8D93-AF622AD889DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CFE3B8A4-E466-4CFA-A634-65B027C46B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFE3B8A4-E466-4CFA-A634-65B027C46B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFE3B8A4-E466-4CFA-A634-65B027C46B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57038BAA-D11D-458B-8D93-AF622AD889DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57038BAA-D11D-458B-8D93-AF622AD889DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57038BAA-D11D-458B-8D93-AF622AD889DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57038BAA-D11D-458B-8D93-AF622AD889DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

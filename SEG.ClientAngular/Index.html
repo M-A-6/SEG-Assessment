@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html ng-app="appSEG">
+<head>
+    <meta charset="utf-8" />
+    <title>Sharjah e Government</title>
+    <base href="/" />
+
+
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/menus.css" rel="stylesheet" />
+    <link href="css/jquery.dataTables.min.css" rel="stylesheet" />
+
+</head>
+<body>
+
+
+    <div id="wrapper" class="active">
+
+        <!-- Sidebar -->
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul id="sidebar_menu" class="sidebar-nav">
+                <li class="sidebar-brand"><a id="menu-toggle" href="#">Sharjah E Gov<span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
+            </ul>
+            <ul class="sidebar-nav" id="sidebar">
+                <!--<li class="active"><a href="/Home" class="sub_icon glyphicon glyphicon-link"></span></a></li>-->
+                <li><a href="/ViewEmployees">View Employees<span class="sub_icon glyphicon glyphicon-asterisk"></span></a></li>
+                <li><a href="/CreateEmployee">Create Employee<span class="sub_icon glyphicon glyphicon-asterisk"></span></a></li>
+                <li><a href="/Register">Register<span class="sub_icon glyphicon glyphicon-asterisk"></span></a></li>
+
+                <li><a href="/Login">Login<span class="sub_icon glyphicon glyphicon-user"></span></a></li>
+                <li><a href="/home">Welcome<span class="sub_icon glyphicon glyphicon-home"></span></a></li>
+                <li><input type="checkbox" checked data-toggle="toggle" data-on="English" data-off="Arabic"></li>
+
+            </ul>
+        </div>
+
+        <!-- Page content -->
+        <div id="page-content-wrapper">
+            <!-- Keep all page content within the page-content inset div! -->
+            <div class="page-content inset">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div ng-view>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <footer>
+            <center>Sharjah E Government </center>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+<script src="Scripts/jquery-3.4.1.min.js"></script>
+<script src="Scripts/jquery.dataTables.js"></script>
+<script src="Scripts/angular.min.js"></script>
+<script src="Scripts/angular-route.min.js"></script>
+<script src="Scripts/angular-cookies.min.js"></script>
+<script src="Scripts/angular-datatables.js"></script>
+<script src="Scripts/bootstrap.min.js"></script>
+<script src="index.js"></script>
+<script src="Views/Common/Home/home.js"></script>
+<script src="Views/Common/Login/login.js"></script>
+<script src="Views/Common/Register/register.js"></script>
+<script src="Views/Employee/CreateEmployee/createEmployee.js"></script>
+<script src="Views/Employee/ViewEmployees/viewEmployees.js"></script>
+
+

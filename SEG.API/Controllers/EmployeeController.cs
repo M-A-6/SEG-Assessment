@@ -11,7 +11,7 @@ using System.Web.Http.Description;
 
 namespace SEG.API.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [EnableCors("*", "*", "*")]
     public class EmployeeController : ApiController
     {    
@@ -80,7 +80,7 @@ namespace SEG.API.Controllers
             {
                 return NotFound();
             }
-        }
+        }       
     }
 }
 

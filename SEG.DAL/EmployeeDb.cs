@@ -37,8 +37,7 @@ namespace SEG.DAL
             Save();
             db.Configuration.ValidateOnSaveEnabled = true;
         }
-
-
+        
         public IEnumerable<spGetEmployees_Result> GetemployeesByDept(int departmentId)
         {
             var deptId = new SqlParameter("@departmentId", departmentId);

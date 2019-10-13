@@ -1,0 +1,12 @@
+E:\Projects\DemoProjects\SEG\SEG\SEG.BOL\bin\Release\SEG.BOL.dll.config
+E:\Projects\DemoProjects\SEG\SEG\SEG.BOL\bin\Release\SEG.BOL.dll
+E:\Projects\DemoProjects\SEG\SEG\SEG.BOL\bin\Release\SEG.BOL.pdb
+E:\Projects\DemoProjects\SEG\SEG\SEG.BOL\bin\Release\EntityFramework.dll
+E:\Projects\DemoProjects\SEG\SEG\SEG.BOL\bin\Release\EntityFramework.SqlServer.dll
+E:\Projects\DemoProjects\SEG\SEG\SEG.BOL\bin\Release\EntityFramework.xml
+E:\Projects\DemoProjects\SEG\SEG\SEG.BOL\bin\Release\EntityFramework.SqlServer.xml
+E:\Projects\DemoProjects\SEG\SEG\SEG.BOL\obj\Release\SEG.BOL.csprojResolveAssemblyReference.cache
+E:\Projects\DemoProjects\SEG\SEG\SEG.BOL\obj\Release\SEG.BOL.csproj.CoreCompileInputs.cache
+E:\Projects\DemoProjects\SEG\SEG\SEG.BOL\obj\Release\SEG.BOL.csproj.CopyComplete
+E:\Projects\DemoProjects\SEG\SEG\SEG.BOL\obj\Release\SEG.BOL.dll
+E:\Projects\DemoProjects\SEG\SEG\SEG.BOL\obj\Release\SEG.BOL.pdb
