@@ -71,7 +71,6 @@ E:\Projects\DemoProjects\SEG\SEG\SEG.ClientAngular\bin\System.Web.Razor.xml
 E:\Projects\DemoProjects\SEG\SEG\SEG.ClientAngular\bin\System.Web.WebPages.xml
 E:\Projects\DemoProjects\SEG\SEG\SEG.ClientAngular\bin\System.Web.WebPages.Deployment.xml
 E:\Projects\DemoProjects\SEG\SEG\SEG.ClientAngular\bin\System.Web.WebPages.Razor.xml
-E:\Projects\DemoProjects\SEG\SEG\SEG.ClientAngular\obj\Debug\SEG.ClientAngular.csprojResolveAssemblyReference.cache
 E:\Projects\DemoProjects\SEG\SEG\SEG.ClientAngular\obj\Debug\SEG.ClientAngular.csproj.CoreCompileInputs.cache
 E:\Projects\DemoProjects\SEG\SEG\SEG.ClientAngular\obj\Debug\SEG.ClientAngular.csproj.CopyComplete
 E:\Projects\DemoProjects\SEG\SEG\SEG.ClientAngular\obj\Debug\SEG.ClientAngular.dll

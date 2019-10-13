@@ -34,7 +34,7 @@ appSEG.run(function ($rootScope, $cookies, $http) {
 appSEG.config(function ($routeProvider, $locationProvider) {
     $routeProvider.when('/Home', { templateUrl: 'Views/Common/Home/Home.html', contoller: 'HomeController' });
     $routeProvider.when('/Login', { templateUrl: 'Views/Common/Login/Login.html', controller: 'loginController' }); 
-    $routeProvider.when('/Register', { templateUrl: 'Views/Common/Register/Register.html', contoller: 'registerController' });
+    $routeProvider.when('/Register', { templateUrl: 'Views/Common/Register/Register.html', contoller: 'RegisterController' });
     $routeProvider.when('/CreateEmployee', { templateUrl: 'Views/Employee/CreateEmployee/CreateEmployee.html', contoller: 'createEmployeeController' });
     $routeProvider.when('/ViewEmployees', { templateUrl: 'Views/Employee/ViewEmployees/ViewEmployees.html', contoller: 'ViewEmployeesCtrl' });
 

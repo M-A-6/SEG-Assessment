@@ -1,7 +1,7 @@
 ﻿appSEG.factory('registerService', function ($http) {
-    loginObj = {};
+    registerObj = {};
 
-    empMgmtObj.createRegister = function (registration) {
+    registerObj.createRegister = function (registration) {
         var Emp;
 
         Emp = $http({ method: 'Post', url: 'http://localhost:4228/api/Employee', data: registration }).
@@ -14,10 +14,10 @@
         return Emp;
     };
 
-    return loginObj;
+    return registerObj;
 });
 
-appSEG.controller('registerController', function ($scope, registerService, $location) {
+appSEG.controller('RegisterController', function ($scope, registerService, $location) {
     $scope.CreateRegistration = function (registration, IsValid) {
         console.log(registration);
         console.log(IsValid);
